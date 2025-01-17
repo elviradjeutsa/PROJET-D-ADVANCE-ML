@@ -37,7 +37,7 @@ Run LSTM.ipynb using the cluster dataframes created at the previous step
 
 
 ## Authors
-
+All of our code is original, in the sense that it wans't copied from another source, such as another project on github or a website
 - Oscar LEGOUPIL
 - Dmitri LEBRUN
 - Sandra NGUEMOGNE
