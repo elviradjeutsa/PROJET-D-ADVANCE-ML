@@ -24,12 +24,13 @@ The idea of this project is to use the socio-demographic data on clients of a he
 
 ## Reproducing Results
 1. **Load the data**
-Load the three data frames base_ano22, base_ano23, base_24
+Load the three data frames base_ano22, base_ano23, base_24 from the google drive link
 3. **Preprocess the data**:
-Run Single_File_Creation_and_encoding.ipynb on these 3 dataframes
+Run Single_File_Creation_and_encoding.ipynb on these 3 dataframes. It outputs a dataframe full_data.csv that has been preprocessed and contains the data from the three years
 4. **Run clustering**
-Run kmeans.ipynb using the full_data.csv file output from the previous step
-5. **Run LSTM**
+Run kmeans.ipynb using the full_data.csv file output from the previous step. It outputs 3 dataframes, one for each cluster
+To visualize the clusters and interpret their signification, run caracterisation_classes.ipynb
+6. **Run LSTM**
 Run LSTM.ipynb using the cluster dataframes created at the previous step
 
 
