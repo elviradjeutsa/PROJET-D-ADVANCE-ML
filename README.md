@@ -23,16 +23,20 @@ The idea of this project is to use the socio-demographic data on clients of a he
 ---
 
 ## Reproducing Results
-
-1. **Preprocess the data**:
-Run Single_File_Creation_and_encoding.ipynb
-2. **Run clustering**
+1. **Load the data**
+Load the three data frames base_ano22, base_ano23, base_24
+3. **Preprocess the data**:
+Run Single_File_Creation_and_encoding.ipynb on these 3 dataframes
+4. **Run clustering**
 Run kmeans.ipynb using the full_data.csv file output from the previous step
-3. **Run LSTM**
+5. **Run LSTM**
 Run LSTM.ipynb using the cluster dataframes created at the previous step
+
+
+
 
 ## Authors
 
 - Oscar LEGOUPIL
-- Dmitri LERBUN
+- Dmitri LEBRUN
 - Sandra NGUEMOGNE
